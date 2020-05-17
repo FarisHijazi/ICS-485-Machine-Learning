@@ -25,39 +25,10 @@ following software systems:
 ## Problem statement
 
 Find it in the [Project_SoftwareBugPrediction\ICS485-Project.pdf]() file.
+here are the problem statement tasks:
 
----
+**Task 1 :** Provide **3 different binary classifiers** ...
 
-**Training/Validation/Testing Set:**
-Divide the dataset into Training/Validation/Testing Set by randomly distributing 70%
-for training, 15% for validation, and 15% for the test set.
+**Task 2 :** Provide **3 different multiclassifiers** to predict the bugs ( **0, 1, and 2** ) given ...
 
-**Task 1 :**
-Provide **3 different binary classifiers** to predict the bug given the software metrics
-considered. In case of more than one bug, you should treat the sample as infected with a
-bug (class 1). Investigate the following issues:
-a. Classifier optimization and hyper-parameter tuning.
-b. The metrics to measure the classifier performance.
-c. Make sure to run your models on the testing data.
-
-
-**Task 2 :**
-Provide **3 different multiclassifiers** to predict the bugs ( **0, 1, and 2** ) given the software
-metrics considered. In case of more than one bug, you should treat the sample as infected
-with more than 2 bugs be considered as class 2. Investigate the following issues:
-a. Classifier optimization and hyper-parameter tuning.
-b. The metrics to measure the classifier performance.
-c. Make sure to run your models the testing data.
-
-**Task 3 :**
-Train a **feedforward neural network** to predict the bugs for the data provided. Determine
-the optimal training parameters for your neural network that are sufficiently general to
-predict the bugs on any withheld data that you will not have for testing purposes. You
-will, therefore, need to devise and execute a plan that uses the given data for training and
-testing in a manner that most closely mimics the real test (on withheld data) including:
-
-a. Number of hidden layers  
-b. Hidden layer nodes  
-c. Training function  
-d. Learning function  
-e. Iterations (epochs)  
+**Task 3 :** Train a **feedforward neural network** to predict ...
